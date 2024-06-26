@@ -1,0 +1,106 @@
+.cardframe {
+    margin-top: 5px; 
+     overflow: hidden;
+    width: 100%;
+    max-width: 250px; /* Adjust max-width as per your design */
+    font-family: "Roboto";
+    background-color: #262330;
+
+    color: #EAE9FC;
+    text-overflow: ellipsis;
+      
+    transition: 0.3s ease;
+  
+
+    }
+    .cardframe:hover{
+       background-color: #41385e;
+      scale: 1.02;
+
+     }
+   .cardtitle {
+    font-size: 1.2rem; /* Adjust font-size as needed */
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left:10px ;
+    padding-right:10px ;
+
+  }
+  .cardDescription {
+    font-size: 0.8rem; /* Adjust font-size as needed */
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(218, 218, 218);
+    padding-left:10px ;
+    padding-right:10px ;
+}
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+  }
+  .type{
+    font-size: 15px;
+    float: right;
+   border: none 2px solid;
+   background-color: #00db63;
+   color:#2f2b3a;
+   font-weight: bold;
+   border-radius: 4px;
+   padding: 5px;
+   margin-right: 10px;
+  }
+  
+  .cardimage {
+    width: 100%;
+    height: auto;
+     object-fit: cover;
+  }
+  .claim{
+    border: 1px #00db63 solid;
+     position: relative;
+     color: #00db63;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.4s ease;
+  
+ margin-bottom: 10px;   
+  }
+  .claim:hover{
+    background-color:#00db63 ;
+    color: #EAE9FC;
+  }
+  .p{
+   margin-bottom: 0;
+   
+   display: flex;
+   justify-content: center;
+ margin-bottom: 0px;    
+  }
+  .platform{     font-size: 0.8rem; /* Adjust font-size as needed */
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(218, 218, 218);
+    padding-left:10px ;
+    padding-right:10px ;}
+    .date{
+        color: rgb(255, 255, 255);
+        background-color:rgba(245, 31, 74, 0.678);
+        padding-left: 10px;
+        
+    }
+  
+ 
+ 
+  
+  

@@ -1,0 +1,23 @@
+.container {
+    max-width: 100%;
+    padding: 10%;
+  }
+  
+  .giveawayList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,  1fr));
+    grid-gap: 10px;
+    justify-items: center; /* Align items in the center horizontally */
+  }
+
+   .box{
+     align-content: end;
+margin-top:100px;
+position: fixed;
+display: flex;
+flex-direction: column;
+    }
+  
+  
+ 
+  
